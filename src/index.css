@@ -1,0 +1,76 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 800px;
+  border: 1px solid black;
+  margin: auto;
+}
+.App {
+  margin: 8px;
+  padding: 8px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* SearchBox (sb-)*/
+#sb-outer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+#sb-location-sym {
+  position: absolute;
+  left: 1rem;
+}
+#sb-query {
+  box-shadow: 0 8px 10px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 10%),
+    0 -8px 12px 0 rgb(0 0 0 / 5%), 0 -2px 3px -2px rgb(0 0 0 / 1%);
+  border-radius: 8px;
+  border: none;
+  display: block;
+  height: 0.1rem;
+  padding: 1.75rem 1.75rem 1.75rem 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: box-shadow 0.2s ease;
+  width: 100%;
+}
+#sb-search-btn {
+  background: 0 0;
+  border: none;
+  position: absolute;
+  right: 1rem;
+  margin: 0;
+}
+/* GraphBox (bg-) */
+#gb-outer {
+  border-radius: 8px;
+  box-shadow: 0 8px 10px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 10%),
+    0 -8px 12px 0 rgb(0 0 0 / 5%), 0 -2px 3px -2px rgb(0 0 0 / 1%);
+  padding: 1.5rem 1rem 0;
+}
+#gb-details1 {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 1.5rem;
+  border: 1px solid red;
+}
+#gb-graph1 {
+  overflow: scroll;
+  margin-bottom: 2rem;
+  border: 1px solid blue;
+}
+#gb-details2 {
+  display: flex;
+  margin-bottom: 3rem;
+  text-align: left;
+  border: 1px solid red;
+}
+#gb-graph2 {
+  border: 1px solid blue;
+}
