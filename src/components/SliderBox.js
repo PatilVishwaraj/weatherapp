@@ -1,5 +1,12 @@
 import React from 'react';
 
 export default function SliderBox() {
-  return <div id="slb-outer"></div>;
+  // let array = [
+
+  // ];
+  return (
+    <div id="slb-outer">
+      <div className="slb-daycard"></div>
+    </div>
+  );
 }

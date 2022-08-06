@@ -7,7 +7,7 @@ export default function SearchBox() {
       <div id="sb-location-sym">
         <LocationOnIcon />
       </div>
-      <input id="sb-query"></input>
+      <input id="sb-query" placeholder="City name"></input>
       <button id="sb-search-btn">
         <SearchIcon />
       </button>

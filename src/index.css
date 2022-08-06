@@ -7,6 +7,7 @@ body {
   max-width: 800px;
   border: 1px solid black;
   margin: auto;
+  line-height: 1.15;
 }
 .App {
   margin: 8px;
@@ -47,6 +48,11 @@ code {
   right: 1rem;
   margin: 0;
 }
+/*  */
+#slb-outer {
+}
+.slb-daycard {
+}
 /* GraphBox (bg-) */
 #gb-outer {
   border-radius: 8px;
@@ -60,6 +66,10 @@ code {
   margin-bottom: 1.5rem;
   border: 1px solid red;
 }
+.curr-image {
+  height: 3em;
+  margin-left: 1rem;
+}
 #gb-graph1 {
   overflow: scroll;
   margin-bottom: 2rem;
@@ -69,8 +79,33 @@ code {
   display: flex;
   margin-bottom: 3rem;
   text-align: left;
-  border: 1px solid red;
+}
+.gb-d1 {
+  background: #f3fbff;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.75rem;
+  margin-right: 0.5rem;
+}
+.gb-d2 {
+  background: #f3fbff;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.75rem;
+}
+.bold {
+  font-weight: 700;
 }
 #gb-graph2 {
   border: 1px solid blue;
+}
+.gb-graph2-details {
+  display: flex;
+  justify-content: space-between;
+}
+.gb-g2-d {
+  display: flex;
+  flex-direction: column;
 }
