@@ -5,11 +5,7 @@ export default function GraphBox() {
     <div id="gb-outer">
       <div id="gb-details1">
         <h1>26°C</h1>
-        <img
-          className="curr-image"
-          src="/public/images/trial.svg"
-          alt="cloud"
-        ></img>
+        <img className="curr-image" src="/images/trial.svg" alt="cloud"></img>
       </div>
       <div id="gb-graph1"></div>
       <div id="gb-details2">

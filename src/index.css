@@ -48,10 +48,42 @@ code {
   right: 1rem;
   margin: 0;
 }
-/*  */
+/* SliderBox (sbl-) */
 #slb-outer {
+  display: flex;
+  font-size: 0.95rem;
+  overflow-x: scroll;
+  margin-bottom: 1.5rem;
+  white-space: nowrap;
 }
 .slb-daycard {
+  position: relative;
+  margin: 0.25rem;
+}
+.slb-daycardip {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  display: block;
+}
+.slb-daydetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  transition: box-shadow 0.3s ease-in;
+}
+.slb-daydetails p {
+  margin: 0 0 0.25rem;
+  font-weight: 600;
+}
+.slb-dataicon {
+  margin: 0.5rem;
+  width: 27px;
 }
 /* GraphBox (bg-) */
 #gb-outer {
@@ -64,7 +96,7 @@ code {
   display: flex;
   align-items: baseline;
   margin-bottom: 1.5rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .curr-image {
   height: 3em;
@@ -73,7 +105,7 @@ code {
 #gb-graph1 {
   overflow: scroll;
   margin-bottom: 2rem;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 #gb-details2 {
   display: flex;
@@ -98,9 +130,9 @@ code {
 .bold {
   font-weight: 700;
 }
-#gb-graph2 {
+/* #gb-graph2 {
   border: 1px solid blue;
-}
+} */
 .gb-graph2-details {
   display: flex;
   justify-content: space-between;
