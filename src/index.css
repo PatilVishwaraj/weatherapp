@@ -5,7 +5,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-width: 800px;
-  border: 1px solid black;
   margin: auto;
   line-height: 1.15;
 }

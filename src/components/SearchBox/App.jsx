@@ -12,12 +12,7 @@ export default function SearchBox() {
     }
   }
 
-  function getweather1(position) {
-    // let lat = position.coords.latitude;
-    // let lon = position.coords.longitude;
-    // let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=f874a2d1b7c97a14944dbed2543e804c`;
-  }
-  //
+  function getweather1(position) {}
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&cnt=08&appid=f874a2d1b7c97a14944dbed2543e804c`;
   const searchBar = (event) => {
     if (event.key === 'Enter') {
@@ -27,11 +22,7 @@ export default function SearchBox() {
       });
     }
   };
-  // function getweather2() {}
   locate();
-
-  // const url1 = `https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=f874a2d1b7c97a14944dbed2543e804c`;
-  // `https://api.openweathermap.org/data/2.5/weather?q=mumbai&appid=f874a2d1b7c97a14944dbed2543e804c`
   return (
     <div id="sb-outer">
       <div id="sb-location-sym">
