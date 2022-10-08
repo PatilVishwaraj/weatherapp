@@ -52,23 +52,21 @@ function App() {
         <>
           {/* <SliderBox></SliderBox> */}
           <div id="slb-outer">
-            {
-              <div className="slb-daycard">
-                <div className="slb-daydetails">
-                  <p>day</p>
-                  <p>
-                    <span>{data.main.temp_max}°C</span>
-                    <span>{data.main.temp_min}°C</span>
-                  </p>
-                  <img
-                    src="/images/trial.svg"
-                    className="slb-dataicon"
-                    alt=""
-                  ></img>
-                  <p>Clouds</p>
-                </div>
+            <div className="slb-daycard">
+              <div className="slb-daydetails">
+                <p>day</p>
+                <p>
+                  <span>{data.main.temp_max}°C</span>
+                  <span>{data.main.temp_min}°C</span>
+                </p>
+                <img
+                  src="/images/trial.svg"
+                  className="slb-dataicon"
+                  alt=""
+                ></img>
+                <p>Clouds</p>
               </div>
-            }
+            </div>
             {/*  */}
           </div>
           {/* <GraphBox></GraphBox> */}
